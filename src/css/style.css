@@ -1,0 +1,73 @@
+body {
+	background-color: gainsboro;
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+p{
+	padding: 0 0;
+	margin: 1px 1px;
+}
+
+#game{
+	margin: 0 0;
+	padding: 0 0;
+}
+
+#topSeparator{
+	display: inline-block;
+}
+
+#bottomSeparator{
+	display: inline-block;
+}
+
+.smallMargin{
+	margin-right: 100px;
+}
+
+.inline{
+	display: inline-block;
+}
+
+
+.marginLeft{
+	margin-left: 100px;
+}
+
+.smallPadding{
+	padding-left: 100px;
+}
+
+.biggerButton{
+	font-size: 2ex;
+	width: 50px;
+	text-align: center;
+}
+
+#topText{
+	padding-top: 3ex;
+}
+
+#bottomSpace{
+	margin-left: 5%;
+}
+
+/*
+Mobile Style
+*/
+@media screen and (max-width: 700px) {
+	#topSeparator{
+		display: block;
+	}
+	#bottomSeparator{
+		display: block;
+		margin: 0 0;
+	}
+	#bottomSpace{
+		display: none;
+	}
+}

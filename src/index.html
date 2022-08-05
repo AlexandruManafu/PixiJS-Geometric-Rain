@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8"> 
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Pixi.js Project Boiler Plate</title>
+    </head>
+    <body>
+        <div class = "smallPadding" id="infoText">
+            <p class = "inline">Number Shapes: </p> <p class = "inline" id="numberShapes">0</p>
+            <div id="topSeparator" class = "smallMargin"></div>
+            <p class = "inline">Surface Area Occupied:</p> <p class = "inline" id = "area">0</p>
+        </div>
+        <div id="game"></div>
+        <div class = "smallPadding" id="buttons">
+
+            <div class = "inline">
+                <div id="bottomSpace" class = "inline"></div>
+                <button type = "button" class = "biggerButton" id = "increaseFigures">+</button>
+                <button type = "button" class = "biggerButton" id = "decreaseFigures">-</button>
+                <br>
+                <p class = "inline">Shapes per second:</p> <p class = "inline" id="shapesPerSecond">0</p>
+            </div>
+            <div id="bottomSeparator" class = "smallMargin"></div>
+            <div class = inline>
+                <button class = "biggerButton" id = "increaseGravity">+</button>
+                <button class = "biggerButton" id = "decreaseGravity">-</button>
+                <br>
+                <p id = "gravityText" class = "inline">Gravity Value:</p> <p class = "inline" id = "gravity">0</p>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
